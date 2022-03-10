@@ -11,7 +11,7 @@ spec:
     - name: internal-https
       namespace: default
   hostnames:
-  - "new.searceinc.org"
+  - "<your hostname>"
   rules:
   - forwardTo:
     - serviceName: store-v4
