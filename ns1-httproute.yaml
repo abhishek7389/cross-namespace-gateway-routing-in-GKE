@@ -5,6 +5,8 @@ metadata:
   labels:
     gateway: internal-https
 spec:
+  gateways:
+    allow: All
   hostnames:
   - "<your_hostname>"
   rules:
